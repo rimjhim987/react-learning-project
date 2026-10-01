@@ -1,10 +1,8 @@
 
-
+import Reem from "./Reem";
 
 function App() {
-  return (
-   <h1>Hello Rimjhim</h1>
-  );
+  return <Reem />;
 }
 
 export default App;

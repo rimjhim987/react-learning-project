@@ -1,11 +1,8 @@
 
+import Reem from "./Reem";
 
 function App() {
-  
-
-  return (
-    <h1>React with vite | Hello Rimjhim</h1>
-  )
+  return <Reem />;
 }
 
-export default App
+export default App;
