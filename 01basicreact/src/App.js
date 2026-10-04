@@ -1,6 +1,4 @@
-
 import Reem from "./Reem";
-
 function App() {
   return <Reem />;
 }

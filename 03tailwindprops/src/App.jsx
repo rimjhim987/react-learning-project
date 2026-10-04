@@ -3,7 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import Card from './components/card'
+import Card from './components/Card'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,13 +15,12 @@ function App() {
   let reem = [ 1,2,3,4];
 
   return (
-    <>
-      <h1 className="bg-blue-500 text-black p-4 rounded-xl">
-        tailwind test</h1>
-        {<Card  channel ="John Doe"  /*someOject = {rimhjim} array = {reem}*/  />}
-        <Card />
-    </>
-  ) 
+      <>
+        <h1 className='bg-green-400 text-black p-4 rounded-xl mb-4'>Tailwind test</h1>
+        <Card username="Rimjhim" btnText="click me" />
+        <Card username="Yuvi" btnText="click me" />
+      </>
+    )
 }
 
 export default App

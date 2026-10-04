@@ -25,17 +25,13 @@ function google(){
 const anotherElement = (
     <a href="https://google.com">visit to google</a>
 )
-
 const anotherElement2 = "chai aur code"
-
 const reactElement = React.createElement(
     'a',
     {href: 'https://google.com', target:'_blank'},
     'click me to visit google website',
     anotherElement2
-
 )
-
 
 createRoot(document.getElementById('root')).render(
  
